@@ -1,0 +1,36 @@
+{
+  "name": "express",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node src/bin/www",
+    "devStart": "nodemon src/bin/www",
+    "buildTS": "tsc",
+    "gulp": "gulp"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~4.3.5",
+    "ejs": "~3.1.10",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1",
+    "sass": "^1.77.5"
+  },
+  "devDependencies": {
+    "@types/cookie-parser": "^1.4.7",
+    "@types/express": "^4.17.21",
+    "@types/http-errors": "^2.0.4",
+    "@types/morgan": "^1.9.9",
+    "gulp": "^5.0.0",
+    "gulp-autoprefixer": "^9.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-typescript": "^6.0.0-alpha.1",
+    "gulp-uglify": "^3.0.2",
+    "gulp-uglify-es": "^3.0.0",
+    "nodemon": "^3.1.3",
+    "typescript": "^5.4.5"
+  }
+}
